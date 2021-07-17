@@ -1,0 +1,13 @@
+{
+    "eslint.codeAction.disableRuleComment": {
+        "enable": false
+    },
+    "eslint.probe": [
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "html",
+        "vue",
+        "markdown"
+    ]
+}
