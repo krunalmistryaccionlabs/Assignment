@@ -31,7 +31,7 @@ export default function homeScreen(props) {
                 <FlatList
                     data={filterData}
                     renderItem={(item) => <ListItem data={item} navigation={props.navigation} />}
-                    keyExtractor={item => item.id}
+                    keyExtractor={item => item.trackId}
                     style={{ height: height(100), width: width(100), padding: 10 }}
                 />
             </SafeAreaView>
